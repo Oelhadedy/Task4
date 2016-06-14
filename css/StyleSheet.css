@@ -1,0 +1,117 @@
+.navbar-brand {
+    color: white !important;
+    display: none;
+}
+.jumbotron{
+background: #7db9e8; /* Old browsers */
+background: -moz-linear-gradient(left, #7db9e8 0%, #2989d8 50%, #1e5799 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #7db9e8 0%,#2989d8 50%,#1e5799 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #7db9e8 0%,#2989d8 50%,#1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=1 );
+    
+    padding: 100px 82px 105px;
+    margin-top: 47px;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    color: white;
+    
+} 
+.jumbotron h1 + p {
+    color: #ebebeb;
+    
+} 
+
+.navbar-inverse{
+    background-color: #373c3f;
+    border-color: #373c3f;
+}
+
+.active{
+    background-color:#242729;
+    
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color:#242729;
+}
+
+nav.navbar-fixed-top li a{
+    padding:40px;
+}
+
+nav.navbar-fixed-top li:hover{
+    background-color:#242729;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color:white;
+    
+}
+
+.navbar-fixed-top .navbar-collapse {
+    max-height: none;
+    
+}
+
+.BricksDiv {
+    padding: 40px 20px 40px 43px;
+    background-color: #27212c;
+    color: white;
+}
+
+.BricksDivArrow {
+    padding: 40px 58px 40px;
+    text-align: center;
+    background-color: #bc3183;
+    color: white;
+    font-weight: bold;
+}
+
+/* @media */
+
+@media (max-width : 910px ) {
+    .BricksDivArrow{
+       padding: 40px 58px 33px;
+    }
+    .BricksDiv h2{
+        font-size: 24px ;
+    }
+}
+
+@media (max-width : 767px ) {
+    .navbar-brand{
+        display: inline-block;
+    }
+}
+
+@media (max-width : 772px ) {
+    .BricksDivArrow{
+       padding: 36px 58px 33px;
+    }
+    .BricksDiv h2{
+        font-size: 20px ;
+    }
+}
+
+/* @media (max-width : 686px ) {
+    .BricksDivArrow{
+       padding: 45px 23px;
+    }
+    .BricksDiv h2{
+        font-size: 20px ;
+    }
+}*/
+@media (max-width : 686px ) {
+    .BricksDivArrow{
+       padding: 45px 23px;
+    }
+    .BricksDiv{
+       padding: 40px 20px 63px 43px;
+    }
+    .BricksDiv h2{
+        font-size: 18px ;
+    }
+}
+    
